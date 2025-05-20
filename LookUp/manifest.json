@@ -1,0 +1,26 @@
+{
+	"name": "Analyzer Tool Popups",
+	"description": "Made by DPUSEC",
+	"version": "0.0.1",
+	"manifest_version": 3,
+	"icons": {
+		"16": "/assets/app/16.png",
+		"32": "/assets/app/32.png",
+		"48": "/assets/app/48.png",
+		"128": "/assets/app/128.png",
+		"144": "/assets/app/144.png",
+		"192": "/assets/app/192.png",
+		"512": "/assets/app/512.png"
+	},
+	"author": "DPUSEC",
+	"content_scripts": [
+		{
+			"matches": [
+				"http://*/*",
+				"https://*/*"
+			],
+			"js": [ "js/page_helper.js" ],
+			"css": [ "css/page_helper.css" ]
+		}
+	]
+}
