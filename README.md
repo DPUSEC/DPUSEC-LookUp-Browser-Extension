@@ -1,5 +1,6 @@
 # DPUSEC-LookUp
 Seçimlerdeki IP, Domain, Hash gibi verileri otomatik olarak algılayarak popüler güvenlik platformlarına hızlı erişim sunar.
+
 🔍 DPUSEC LookUp – Simplify Cybersecurity Investigations
 
 Analyzer Tool Popups automatically detects selected IP addresses, domains, emails, or file hashes on any webpage and provides quick access to popular threat analysis tools.
